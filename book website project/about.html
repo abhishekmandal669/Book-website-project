@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  .social-icons {
+    margin-left: -5px;
+  }
+  .social-icons a {
+    margin-right: 15px; 
+  }
+  .social-icon {
+    color:  white; 
+  }
+  .social-icon1 {
+    color:black; 
+  }
+</style>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="https://static.vecteezy.com/system/resources/previews/006/552/415/non_2x/book-and-studen-logo-free-vector.jpg" alt="M&B Remodeling Logo">T.B.H
+          </a>
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+              <li class="nav-item">
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </li>
+                <div class="row justify-content-start social-icons">
+                    <div class="col-md-auto mt-1">
+                      <a href="#" class="social-icon1"><i class="fab fa-facebook"></i></a>
+                      <a href="#" class="social-icon1"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="social-icon1"><i class="fab fa-instagram"></i></a>
+                      <a href="#" class="social-icon1"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                  </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="image-section">
+        <img src="https://static.wixstatic.com/media/ad420a_d1da9539608c45e7aec90beb81f16e7e~mv2.jpg/v1/crop/x_248,y_0,w_2967,h_3413/fill/w_419,h_481,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GettyImages-557608537.jpg" alt="Centered Image" class="centered-image">
+      </section>
+
+  
+<section class="about-me-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="text-center mb-5">About Me</h2>
+          <p class="text-center">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+          <p class="text-center">This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <div class="container-fluid text-white py-5" id="subscribe" style="background-color: black;">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="text-center">
+          <h2 class="mb-3">Subscribe here to get my latest posts</h2>
+        </div>
+        <form class="text-center">
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Enter your email address" required>
+            <div class="input-group-append">
+              <button class="btn btn-light" type="submit">Subscribe</button>
+            </div>
+          </div>
+          <p>We respect your privacy. Unsubscribe at any time.</p>
+          <div class="row justify-content-centre social-icons">
+            <div class="col-md">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS and jQuery (required for Bootstrap functionality) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
